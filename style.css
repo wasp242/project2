@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.sort{
+    margin-bottom: 20px;
+}
+.sort-down, .sort-up{
+    width: 33px;
+    padding: 0;
+    height: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 85px;
+    right: 20px;
+}
+
+
+h1{
+    font-size: 26px;
+    margin: 0 top;
+    text-align: center;
+}
+
+.div{
+    position: absolute;
+    top: 33%;
+    left: 45%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;  
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding-bottom: 19px;
+    
+}
+
+.user-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-form .field p{
+    display: flex;
+    align-items: center;
+}
+.divider{
+    height: 28px;
+    background: #FFDC40;
+    overflow: hidden;
+}
+.input{
+    border:none;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    width: 286px;
+    margin: 0 25px;
+}  
+.field{
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 286px;
+    margin: 0 25px;
+} 
+.delete{
+    position: absolute;
+   left: 300px;
+   border: none;
+   cursor: pointer;
+   color: #C4C4C4;
+   background-color: white;
+   border-radius: 15px;
+   border: 1px solid #C4C4C4;
+   display: none;
+}
+.delete:hover{
+    background: #833AE0;
+    border:none;
+    color: white;
+}
+
+.delete-value{
+    position: absolute;
+    left: 270px;
+    border: none;
+    cursor: pointer;
+    color: #C4C4C4;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #C4C4C4;
+    width: 21px;
+    height: 21px;
+}
+
+.delete-value:hover{
+    background: #833AE0;
+    border:none;
+    color: white; 
+}
+
+p{
+    margin: 0;
+}
+
+.add{
+    background-color: #833AE0;
+    border-radius: 71px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.add-plus{
+    height: 42px;
+    width: 42px;
+    border-radius: 71px;
+    background-color: #9953F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+button{
+    padding: 0;
+}
+
+.inactive{
+    display: none;
+}
+
+.hovered{
+    background-color: #d1d8e2;
+}
