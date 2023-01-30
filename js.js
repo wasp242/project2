@@ -100,9 +100,3 @@ function sortDownFunction(){
     input.value = '';
 }
 
-const dragAndDrop = () => {
-    log(input.value)
-    
-    
-}
-dragAndDrop()

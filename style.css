@@ -4,6 +4,14 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
 }
 .sort{
     margin-bottom: 20px;
@@ -29,8 +37,6 @@ h1{
 
 .div{
     position: absolute;
-    top: 33%;
-    left: 45%;
     display: flex;
     overflow: hidden;
     flex-direction: column;  
